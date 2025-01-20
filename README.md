@@ -1,4 +1,4 @@
-# lab01- sumador 
+# Sumador de 1 bit 
 ## nombres
 
 ## informe de laoratorio 
