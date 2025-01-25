@@ -28,5 +28,5 @@ Donde las palabras "module" y "endmodule" son usadas para crear un archivo en ve
 
 El proceso que se lleva a cabo dentro de "always" es la suma de dos números de 1 bit y un carry de entrada. Este valor se esta asignado al regitro st, donde, el bit menos significativo se añade a la salida S, mientras que el más significativo se asigna al carry de salida. Esto se hace porque la suma produce un número de 2 bits, el cual no se puede representar con la salida de 1 bit. 
 ## Simulación
-
+<img src="./Images/simulation.png">
 ## Implementación
