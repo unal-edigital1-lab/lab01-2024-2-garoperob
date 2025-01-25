@@ -33,5 +33,6 @@ Para realizar la simulación se uso el software gtkwave donde se evidención que
 <img src="./Images/simulation.png">
 
 ## Implementación
-A continuación se muestra la implementación del código, donde los leds D8 y D7 muestran el resultado de la suma. Se observa que A es el primer switch que se levanta, enciendiendo D8 que representa el bit menos signifitacivo, por consiguiente, el sigueinte switch en levantarse representa B, que al sumar 1+1 da como resultado 0 y genera carry de salida que lo representa D8. Finalmente, se enciende un tercer switch, al tiempo que los otro dos, el cual es el carry de entrada; una vez se suman los 3 da como resultado 1 en el carry de salida y 1 en el resultado de las suma, mostrando los 2 leds encendidos. 
+A continuación se muestra la implementación del código, donde los leds D8 y D7 muestran el resultado de la suma. Se observa que A es el primer switch que se levanta, enciendiendo D8 que representa el bit menos signifitacivo, por consiguiente, el sigueinte switch en levantarse representa B, que al sumar 1+1 da como resultado 0 y genera carry de salida que lo representa D8. Finalmente, se enciende un tercer switch, al tiempo que los otro dos, el cual es el carry de entrada; una vez se suman los 3 da como resultado 1 en el carry de salida y 1 en el resultado de las suma, mostrando los 2 leds encendidos.
+ 
 <img src="./Images/VID-20250124-WA0024.mp4">
