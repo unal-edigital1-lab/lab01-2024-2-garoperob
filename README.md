@@ -4,7 +4,7 @@
 ## Código 
 
 Para la realización de la primera práctica se tomó el siguiente código:
-```
+```verilog
 `include "/home/volplet/Escritorio/digital1v2/lab01-2024-2-garoperob/src/sum1bcc_TB.v"
 module sum1bcc (A, B, Ci,Cout,S);
 
