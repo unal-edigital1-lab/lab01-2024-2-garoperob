@@ -28,5 +28,10 @@ Donde las palabras "module" y "endmodule" son usadas para crear un archivo en ve
 
 El proceso que se lleva a cabo dentro de "always" es la suma de dos números de 1 bit y un carry de entrada. Este valor se esta asignado al regitro st, donde, el bit menos significativo se añade a la salida S, mientras que el más significativo se asigna al carry de salida. Esto se hace porque la suma produce un número de 2 bits, el cual no se puede representar con la salida de 1 bit. 
 ## Simulación
+
+Para realizar la simulación se uso el software gtkwave donde se evidención que el resultado de las salidas S y Cout corresponde a los valores esperados. Como ejemplo se tiene que cuando A y B son 1 y Cin 0, el resultado de Cout es 1 y S es 0, esto después de los 18 ns. Otro ejemplo es que el valor final de la simulación (20 ns en adelante) muestra que cuando toda las entradas están en 1, los valores de salida corresponde 1, siendo la S = 1 el resultado de añadir carry de entrada y siendo Cout = 1 como el carry que sobra tras la suma. 
 <img src="./Images/simulation.png">
+
 ## Implementación
+A continuación se muestra la implementación del código, donde los leds D8 y D7 muestran el resultado de la suma. Se observa que A es el primer switch que se levanta, enciendiendo D8 que representa el bit menos signifitacivo, por consiguiente, el sigueinte switch en levantarse representa B, que al sumar 1+1 da como resultado 0 y genera carry de salida que lo representa D8. Finalmente, se enciende un tercer switch, al tiempo que los otro dos, el cual es el carry de entrada; una vez se suman los 3 da como resultado 1 en el carry de salida y 1 en el resultado de las suma, mostrando los 2 leds encendidos. 
+<img src="./Images/VID-20250124-WA0024.mp4">
